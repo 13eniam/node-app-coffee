@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<header>
+    <h1>App for testing</h1>
+</header>
+<div id="content" class="content">
+</div>
+<!-- Include require.js support. -->
+<script src="build/assets/js/vendor/requirejs/require.js"></script>
+<script type="text/javascript">
+    require(['build/assets/js/app/common.js'], function () {
+			require(['build/assets/js/app/main.js'], function(){})
+	})
+</script>
+</body>
+</html>

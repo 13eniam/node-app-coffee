@@ -1,0 +1,17 @@
+{
+  "name": "node-app-coffee",
+  "version": "1.0.0",
+  "description": "Coffee template for Marionette app",
+  "main": "index.html",
+  "scripts": {
+    "build": "coffee -o build -c src",
+    "start": "http-server -p 9000"
+  },
+  "keywords": [],
+  "author": "beniamt@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee": "^3.3.0",
+    "http-server": "^0.9.0"
+  }
+}

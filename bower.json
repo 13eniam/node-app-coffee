@@ -1,0 +1,28 @@
+{
+  "name": "node-app-babel",
+  "description": "App for testing Marionette components and ideas",
+  "main": "index.html",
+  "authors": [
+    "Beniam Haile <beniamt@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "testing-app"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.2",
+    "jquery": "2.2.4",
+    "backbone": "1.1.2",
+    "marionette": "1.8.x",
+    "underscore": "1.6.0"
+  }
+}
